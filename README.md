@@ -16,7 +16,7 @@ This is a simple Java hangman game which I created while learning Java programmi
 The application allows the player to guess letters to reveal a hidden word. Throughout the game, the correct and incorrect guesses are tracked, and a visual of the hangman is displayed as incorrect guesses are made. The game ends when the word is fully guessed or when the hangman is fully drawn.
 
 ## Video Demo
-![Demo Video](./demo/JavaHangmanDemo.gif)
+![Demo Video](./demo/JavaHangmanGameDemo.gif)
 
 ## Features
 
