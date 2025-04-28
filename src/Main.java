@@ -92,7 +92,7 @@ public class Main {
             System.out.println("\n--- HANGMAN ---\n-------------\n" + hangman.getHangmanDisplay() + "\n-------------\n");
 
             if (hangman.checkIfWordWasCompleted()) {
-                System.out.println("--- You Win ---\nCongratulations! You've guessed the word: " + word);
+                System.out.println("--- You Win ---\nCongratulations! You've guessed the word: " + word.toLowerCase());
                 continuePlaying = false;
             }
             else if (hangman.checkIfHangmanIsCompleted()){
